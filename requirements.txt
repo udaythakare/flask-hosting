@@ -1,0 +1,8 @@
+conda create --name mlapp python=3.8
+conda activate mlapp
+
+# Install packages
+conda install -c conda-forge flask
+conda install -c conda-forge flask-cors
+conda install -c conda-forge vadersentiment
+conda install -c conda-forge wordcloud
